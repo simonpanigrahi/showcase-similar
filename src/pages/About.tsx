@@ -11,44 +11,103 @@ const About = () => {
           <div>
             <h2 className="text-2xl font-semibold mb-4">Who I Am</h2>
             <p className="text-gray-700 mb-6">
-              I'm Simon Kenny Panigrahi, a data science enthusiast with a passion for transforming complex data into meaningful insights. With a background in statistics and computer science, I specialize in creating data-driven solutions that help organizations make better decisions.
+              I am a third-year B.Tech student specializing in Information Technology with a strong foundation in computer applications and programming.
             </p>
             <p className="text-gray-700 mb-6">
-              My journey in data science began during my undergraduate studies, where I discovered my passion for using data to solve real-world problems. Since then, I've been continuously expanding my knowledge and skills in the field.
+              I am a fast learner with excellent analytical skills, dedicated to mastering new technologies and solving complex problems efficiently.
             </p>
+            <div className="mt-8">
+              <h3 className="text-xl font-semibold mb-4">Languages</h3>
+              <div className="space-y-3">
+                <div>
+                  <h4 className="font-medium">English</h4>
+                  <div className="w-full bg-gray-200 h-2 rounded-full mt-2">
+                    <div className="bg-mint h-2 rounded-full w-[90%]"></div>
+                  </div>
+                </div>
+                <div>
+                  <h4 className="font-medium">Hindi</h4>
+                  <div className="w-full bg-gray-200 h-2 rounded-full mt-2">
+                    <div className="bg-mint h-2 rounded-full w-[85%]"></div>
+                  </div>
+                </div>
+                <div>
+                  <h4 className="font-medium">Odia</h4>
+                  <div className="w-full bg-gray-200 h-2 rounded-full mt-2">
+                    <div className="bg-mint h-2 rounded-full w-[95%]"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="mt-8">
+              <h3 className="text-xl font-semibold mb-4">Hobbies</h3>
+              <ul className="list-disc pl-5 text-gray-700">
+                <li>Travelling</li>
+                <li>Stock Market</li>
+                <li>Cycling</li>
+                <li>Cooking</li>
+                <li>Stand-up Comedy</li>
+              </ul>
+            </div>
           </div>
           <div>
             <h2 className="text-2xl font-semibold mb-4">My Skills</h2>
             <div className="space-y-4">
               <div>
-                <h3 className="font-medium">Data Analysis</h3>
-                <div className="w-full bg-gray-200 h-2 rounded-full mt-2">
-                  <div className="bg-mint h-2 rounded-full w-[95%]"></div>
-                </div>
-              </div>
-              <div>
-                <h3 className="font-medium">Machine Learning</h3>
+                <h3 className="font-medium">Python</h3>
                 <div className="w-full bg-gray-200 h-2 rounded-full mt-2">
                   <div className="bg-mint h-2 rounded-full w-[90%]"></div>
                 </div>
               </div>
               <div>
-                <h3 className="font-medium">Data Visualization</h3>
+                <h3 className="font-medium">SQL</h3>
                 <div className="w-full bg-gray-200 h-2 rounded-full mt-2">
                   <div className="bg-mint h-2 rounded-full w-[85%]"></div>
                 </div>
               </div>
               <div>
-                <h3 className="font-medium">Python</h3>
-                <div className="w-full bg-gray-200 h-2 rounded-full mt-2">
-                  <div className="bg-mint h-2 rounded-full w-[92%]"></div>
-                </div>
-              </div>
-              <div>
-                <h3 className="font-medium">R</h3>
+                <h3 className="font-medium">Power BI</h3>
                 <div className="w-full bg-gray-200 h-2 rounded-full mt-2">
                   <div className="bg-mint h-2 rounded-full w-[80%]"></div>
                 </div>
+              </div>
+              <div>
+                <h3 className="font-medium">Microsoft Excel</h3>
+                <div className="w-full bg-gray-200 h-2 rounded-full mt-2">
+                  <div className="bg-mint h-2 rounded-full w-[85%]"></div>
+                </div>
+              </div>
+              <div>
+                <h3 className="font-medium">Google Cloud Platform/AWS</h3>
+                <div className="w-full bg-gray-200 h-2 rounded-full mt-2">
+                  <div className="bg-mint h-2 rounded-full w-[75%]"></div>
+                </div>
+              </div>
+              <div>
+                <h3 className="font-medium">UI/UX</h3>
+                <div className="w-full bg-gray-200 h-2 rounded-full mt-2">
+                  <div className="bg-mint h-2 rounded-full w-[70%]"></div>
+                </div>
+              </div>
+              <div>
+                <h3 className="font-medium">HTML-CSS-JS</h3>
+                <div className="w-full bg-gray-200 h-2 rounded-full mt-2">
+                  <div className="bg-mint h-2 rounded-full w-[75%]"></div>
+                </div>
+              </div>
+              <div>
+                <h3 className="font-medium">YOLO and Computer Vision</h3>
+                <div className="w-full bg-gray-200 h-2 rounded-full mt-2">
+                  <div className="bg-mint h-2 rounded-full w-[80%]"></div>
+                </div>
+              </div>
+            </div>
+            <div className="mt-8">
+              <h3 className="text-xl font-semibold mb-4">Education</h3>
+              <div className="mb-4">
+                <h4 className="font-medium text-lg">B. Tech in Information Technology</h4>
+                <p className="text-gray-700">Veer Surendra Sai University of Technology</p>
+                <p className="text-gray-600">2022-2026</p>
               </div>
             </div>
           </div>

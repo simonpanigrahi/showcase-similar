@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <header className="w-full py-4 px-6 md:px-12 lg:px-16 border-b">
       <div className="max-w-7xl mx-auto flex justify-between items-center">
-        <div className="text-3xl font-medium text-gray-800">Portofolio</div>
+        <div className="text-3xl font-medium text-gray-800">Portfolio</div>
         <nav className="hidden md:flex items-center gap-8">
           <NavItem href="/" label="Home" active />
           <NavItem href="/about" label="About" />

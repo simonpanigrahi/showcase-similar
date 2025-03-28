@@ -12,14 +12,13 @@ const Hero = () => {
         </h1>
         <h2 className="text-4xl sm:text-5xl font-bold text-gray-900 mt-2 mb-6">
           DATA SCIENCE
-          <span className="block">ENTHUSIAST</span>
+          <span className="block">INTERN</span>
         </h2>
         <p className="text-gray-700 mb-2 max-w-xl">
-          Transforming complex data into actionable insights.
+          B.Tech student specializing in Information Technology.
         </p>
         <p className="text-gray-700 mb-8 max-w-xl">
-          Passionate about machine learning, data visualization, and
-          developing innovative data-driven solutions.
+          Fast learner with excellent analytical skills, dedicated to mastering new technologies and solving complex problems efficiently.
         </p>
         <div className="flex flex-wrap gap-4">
           <Link

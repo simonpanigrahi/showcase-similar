@@ -1,6 +1,6 @@
 
 import Navbar from "@/components/Navbar";
-import { Mail, Phone, MapPin, Send } from "lucide-react";
+import { Mail, Phone, MapPin, Send, Globe } from "lucide-react";
 import { useState } from "react";
 import { useToast } from "@/hooks/use-toast";
 
@@ -55,19 +55,24 @@ const Contact = () => {
             </p>
             <div className="space-y-6">
               <ContactInfoItem
-                icon={<Mail />}
-                title="Email"
-                content="simon.panigrahi@example.com"
-              />
-              <ContactInfoItem
                 icon={<Phone />}
                 title="Phone"
-                content="+1 (555) 123-4567"
+                content="6371088186"
+              />
+              <ContactInfoItem
+                icon={<Mail />}
+                title="Email"
+                content="simonkp.acad@gmail.com"
+              />
+              <ContactInfoItem
+                icon={<Globe />}
+                title="Website"
+                content="www.simonkp.com"
               />
               <ContactInfoItem
                 icon={<MapPin />}
                 title="Location"
-                content="San Francisco, CA"
+                content="Sonepur, Odisha"
               />
             </div>
           </div>

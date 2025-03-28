@@ -77,29 +77,29 @@ const ProjectCard = ({ title, description, image, tags, demoLink, repoLink }: Pr
 
 const projects: ProjectProps[] = [
   {
-    title: "Customer Segmentation Analysis",
+    title: "Customer Feedback Analysis using NLP",
     description:
-      "Used K-means clustering to identify distinct customer segments for targeted marketing strategies.",
+      "Using nltk, seaborn, tensorflow like python libraries to generate insights from customer review dataset.",
     image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=1000",
-    tags: ["Python", "Scikit-learn", "Data Visualization"],
+    tags: ["Python", "NLP", "TensorFlow", "Data Analysis"],
     demoLink: "#",
     repoLink: "#",
   },
   {
-    title: "Sales Prediction Model",
+    title: "Delhivery Logistics Performance Dashboard",
     description:
-      "Developed a time series forecasting model to predict monthly sales with 92% accuracy.",
+      "Performed Data Cleaning and formatting using Power Query. Presented insights using Power BI.",
     image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=1000",
-    tags: ["R", "Time Series", "ARIMA"],
+    tags: ["Power BI", "Data Visualization", "Power Query"],
     demoLink: "#",
     repoLink: "#",
   },
   {
-    title: "Sentiment Analysis Dashboard",
+    title: "E-Commerce Website",
     description:
-      "Created an interactive dashboard for analyzing customer feedback sentiment in real-time.",
+      "Created a website using HTML, CSS, JavaScript. Deployed in the Internet.",
     image: "https://images.unsplash.com/photo-1551434678-e076c223a692?q=80&w=1000",
-    tags: ["NLP", "Python", "Dash", "Flask"],
+    tags: ["HTML", "CSS", "JavaScript", "Web Development"],
     demoLink: "#",
     repoLink: "#",
   },
