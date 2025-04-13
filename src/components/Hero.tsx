@@ -2,6 +2,9 @@
 import { Link } from "react-router-dom";
 
 const Hero = () => {
+  // Ensure image path is correct for GitHub Pages deployment
+  const imagePath = `${import.meta.env.BASE_URL}lovable-uploads/cfab0172-1c11-400f-b064-801c661d1161.png`;
+  
   return (
     <div className="min-h-[calc(100vh-80px)] flex flex-col-reverse md:flex-row items-center justify-between gap-10 py-10 px-6 md:px-12 lg:px-16 max-w-7xl mx-auto">
       <div className="flex-1">
@@ -37,9 +40,14 @@ const Hero = () => {
       </div>
       <div className="flex-1 flex justify-center md:justify-end">
         <img
-          src={`${import.meta.env.BASE_URL}lovable-uploads/cfab0172-1c11-400f-b064-801c661d1161.png`}
+          src={imagePath}
           alt="Simon Kenny Panigrahi"
           className="w-full max-w-md md:max-w-lg"
+          onError={(e) => {
+            console.error("Image failed to load:", e);
+            e.currentTarget.onerror = null;
+            e.currentTarget.src = `${import.meta.env.BASE_URL}placeholder.svg`;
+          }}
         />
       </div>
     </div>
