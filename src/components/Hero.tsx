@@ -37,7 +37,7 @@ const Hero = () => {
       </div>
       <div className="flex-1 flex justify-center md:justify-end">
         <img
-          src="./lovable-uploads/cfab0172-1c11-400f-b064-801c661d1161.png"
+          src={`${import.meta.env.BASE_URL}lovable-uploads/cfab0172-1c11-400f-b064-801c661d1161.png`}
           alt="Simon Kenny Panigrahi"
           className="w-full max-w-md md:max-w-lg"
         />
